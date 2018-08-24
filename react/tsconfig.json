@@ -1,0 +1,19 @@
+{
+  "version": "2.3.2",
+  "compilerOptions": {
+    "allowJs": true,
+    "module": "commonjs",
+    "target": "es2017",
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "types/**"
+    ],
+    "lib": ["es2015", "es2017", "dom"]
+  },
+  "exclude": [
+    "node_modules",
+    "public/built"
+  ]
+}

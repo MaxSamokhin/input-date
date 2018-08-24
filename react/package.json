@@ -1,0 +1,47 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tslint": "tslint -c tslint.json 'public/**/*.ts?(x)'",
+    "webpack": "./node_modules/.bin/webpack --config webpack.config.js",
+    "dev-server": "webpack-dev-server",
+    "static": "node server-front.js",
+    "server": "node server.js"
+  },
+  "keywords": [],
+  "author": "Max Samokhin",
+  "license": "ISC",
+  "bugs": {},
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "htmlparser2": "^3.9.2",
+    "https": "^1.0.0",
+    "react": "15.5.4",
+    "react-dom": "15.5.4"
+  },
+  "devDependencies": {
+    "@types/react": "15.0.29",
+    "@types/react-dom": "15.5.0",
+    "webpack": "^3.8.1",
+    "webpack-cli": "^3.0.2",
+    "awesome-typescript-loader": "3.1.3",
+    "babel-core": "6.24.1",
+    "babel-loader": "7.0.0",
+    "babel-preset-env": "1.4.0",
+    "babel-preset-es2015": "6.24.1",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "2.1.0",
+    "file-loader": "^1.1.11",
+    "img-loader": "^3.0.0",
+    "node-sass": "^4.9.0",
+    "path": "^0.12.7",
+    "sass-loader": "^7.0.3",
+    "tslint": "^5.10.0",
+    "typescript": "2.3.2",
+    "url-loader": "^1.0.1",
+    "webpack-dev-server": "2.4.5"
+  }
+}
